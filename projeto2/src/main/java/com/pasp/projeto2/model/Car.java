@@ -12,7 +12,7 @@ public class Car implements Vehicle {
 
 	@Override
 	public void stop() {
-		// TODO Auto-generated method stub
+		System.out.println("Parando carro");
 
 	}
 
