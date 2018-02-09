@@ -9,4 +9,9 @@ public class VehicleComponent {
 	@Autowired
 	private Vehicle vehicle;
 	
+	public void service() {
+		vehicle.start();
+		vehicle.stop();
+	}
+	
 }
