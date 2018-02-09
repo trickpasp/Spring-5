@@ -3,7 +3,7 @@ package com.pasp.projeto2;
 
 public class BeanDev {
 	
-	public void beanDev() {
+	public BeanDev() {
 		System.out.println("Configurações de dev");
 	}
 	
