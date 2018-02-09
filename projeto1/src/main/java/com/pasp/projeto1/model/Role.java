@@ -1,22 +1,19 @@
 package com.pasp.projeto1.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-@Entity
+@Document
 public class Role {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long id;
+	private String id;
 	private String nome;
 	
-	public Long getId() {
+	public String getId() {
 		return id;
 	}
 	
-	public void setId(Long id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 	public String getNome() {
