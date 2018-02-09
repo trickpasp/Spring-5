@@ -32,7 +32,7 @@ public class DataInitilizr implements ApplicationListener<ContextRefreshedEvent>
 			createUser("Andreazo Uma Noite Com Rodrigo", "andreazoumanoite@gmail.com");
 		}
 		
-		User user = userRepository.findByNameIgnoreCase("patrick Doido Maluco");
+		User user = userRepository.findByEmailQualquerCoisa("patrickdoidomaluco@gmail.com");
 		System.out.println(user.getName());
 	}
 	

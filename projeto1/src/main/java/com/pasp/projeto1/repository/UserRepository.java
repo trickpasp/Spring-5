@@ -1,13 +1,15 @@
 package com.pasp.projeto1.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.data.mongodb.repository.Query;
 
 import com.pasp.projeto1.model.User;
 
-public interface UserRepository extends MongoRepository<User, String>{
+public interface UserRepository extends MongoRepository<User, Long>{
 		
-	User findByEmail(String email);
+	@Query("{ 'email': ?0 }")
+	User findByEmailQualquerCoisa(String email);
 	
-	User findByNameIgnoreCase(String name);
+	User findByNameIgnoreCaseLike(String name);
 	
 }
