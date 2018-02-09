@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.pasp.projeto1.service.UserService;
 
+//Nunca usar regra de negócio nas classes controllers
+
 @Controller
 public class UserController {
 	
