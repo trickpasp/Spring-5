@@ -10,8 +10,8 @@ public class Projeto2Application {
 	public static void main(String[] args) {
 		ApplicationContext ctx =	SpringApplication.run(Projeto2Application.class, args);
 		
-		MyController controller = (MyController) ctx.getBean("myController");
+		VehicleComponent component = (VehicleComponent) ctx.getBean("vehicleComponent");
 		
-		controller.hello();
+		component.service();
 	}
 }

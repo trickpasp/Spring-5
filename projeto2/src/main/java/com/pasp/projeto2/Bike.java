@@ -7,7 +7,7 @@ public class Bike implements Vehicle {
 
 	@Override
 	public void start() {
-			System.out.println("Iniciando a Bike");
+		System.out.println("Iniciando a Bike");
 
 	}
 
