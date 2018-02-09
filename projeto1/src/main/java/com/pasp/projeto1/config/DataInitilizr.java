@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import com.pasp.projeto1.model.User;
 import com.pasp.projeto1.repository.UserRepository;
 
-//Essa classe serve para dar a carga inicial para nossa aplicação
+//Essa classe serve para dar a carga inicial para aplicação
 
 @Component
 public class DataInitilizr implements ApplicationListener<ContextRefreshedEvent> {
