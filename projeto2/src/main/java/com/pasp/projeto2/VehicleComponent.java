@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class VehicleComponent {
 
 	@Autowired
-	@Qualifier("bikeBean")
+	@Qualifier("carBean")
 	private Vehicle vehicle;
 	
 	public void service() {
