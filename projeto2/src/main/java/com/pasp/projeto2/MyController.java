@@ -1,4 +1,4 @@
-package com.pasp.projeto2.controller;
+package com.pasp.projeto2;
 
 import org.springframework.stereotype.Controller;
 

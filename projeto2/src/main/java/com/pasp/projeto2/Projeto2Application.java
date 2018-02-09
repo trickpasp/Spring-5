@@ -4,8 +4,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
-import com.pasp.projeto2.controller.MyController;
-
 @SpringBootApplication
 public class Projeto2Application {
 

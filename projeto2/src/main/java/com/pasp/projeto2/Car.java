@@ -1,8 +1,6 @@
-package com.pasp.projeto2.model;
+package com.pasp.projeto2;
 
 import org.springframework.stereotype.Component;
-
-import com.pasp.projeto2.interfaces.Vehicle;
 
 @Component
 public class Car implements Vehicle {

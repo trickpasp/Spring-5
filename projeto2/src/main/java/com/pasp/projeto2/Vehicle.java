@@ -1,4 +1,4 @@
-package com.pasp.projeto2.interfaces;
+package com.pasp.projeto2;
 
 //Serve para estabelecer um contrato a ser utilizado
 public interface Vehicle {
